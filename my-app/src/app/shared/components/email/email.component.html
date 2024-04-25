@@ -1,0 +1,14 @@
+<p>Введите Почту</p>
+<div class="example-container">
+    <mat-form-field>
+      <mat-label>Введите вашу почту</mat-label>
+      <input matInput
+             placeholder="pat@example.com"
+             [formControl]="email"
+             (blur)="updateErrorMessage()"
+             required>
+      @if (email.invalid) {
+        <mat-error>{{errorMessage}}</mat-error>
+      }
+    </mat-form-field>
+  </div>

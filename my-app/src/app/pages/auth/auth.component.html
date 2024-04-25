@@ -1,1 +1,9 @@
-<p>auth works!</p>
+<div class="bg-cyan-700 flex flex-col w-1/3 mx-auto mt-20 p-4 rounded border border-cyan-800 gap-5">
+    <h1>Добро пожаловать</h1>
+    <h3>Для получения доступа введите данные!</h3>
+    <form [formGroup]="myForm" class="gap-5">
+        <app-email [email]="$any(myForm.controls['email'])"></app-email>
+        <app-password [password]="$any(myForm.controls['password'])"></app-password>
+        <app-button [isActiveButton]="myForm.invalid"></app-button>
+    </form>
+</div>
