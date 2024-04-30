@@ -1,0 +1,50 @@
+<div class="header">
+  <p class="header-title" i18n>Привет. Твоя доска задач.</p>
+  <p class="header-description" i18n>Чтобы поменять статус, перетащи задачу в нужное поле!</p>
+</div>
+<div class="board">
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('To Do')">
+        <div class="list-header" i18n>To Do</div>
+            <div class="card" *ngFor="let task of filterTasks('To Do')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('In Progress')">
+        <div class="list-header" i18n>In Progress</div>
+            <div class="card" *ngFor="let task of filterTasks('In Progress')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('Under Review')">
+        <div class="list-header" i18n>Under Review</div>
+            <div class="card" *ngFor="let task of filterTasks('Under Review')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('Done')">
+        <div class="list-header" i18n>Done</div>
+            <div class="card" *ngFor="let task of filterTasks('Done')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('Cancelled')">
+        <div class="list-header" i18n>Cancelled</div>
+            <div class="card" *ngFor="let task of filterTasks('Cancelled')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+    <div class="list" (dragover)="onDragOver($event)" (drop)="onDrop('Rejected')">
+        <div class="list-header" i18n>Rejected</div>
+            <div class="card" *ngFor="let task of filterTasks('Rejected')" draggable="true" (dragstart)="onDragStart(task)">
+                <p i18n>Номер задания: {{task?.ticketId}}</p>
+                <p i18n>Статус: {{task?.status}}</p>
+            </div>
+    </div>
+  </div>
+
+  <app-button-logout></app-button-logout>

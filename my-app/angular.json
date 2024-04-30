@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "my-app": {
+      "i18n": {
+        "sourceLocale": "ru",
+        "locales": {
+          "en": "src/assets/i18n/en.json",
+          "ru": "src/assets/i18n/ru.json"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +24,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "en"
+            ], 
+            "i18nMissingTranslation": "error", 
             "outputPath": "dist/my-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -41,6 +52,12 @@
             }
           },
           "configurations": {
+            "ru": {  
+            "localize": ["ru"]
+          },
+          "en" : {
+            "localize": ["en"]
+          },
             "production": {
               "budgets": [
                 {

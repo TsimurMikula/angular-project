@@ -1,21 +1,20 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input} from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-button',
+  selector: 'app-button-logout',
   standalone: true,
   imports: [MatButtonModule, MatDividerModule, MatIconModule],
-  templateUrl: './button.component.html',
-  styleUrl: './button.component.scss'
+  templateUrl: './buttonLogout.component.html',
+  styleUrl: './buttonLogout.component.scss'
 })
-export class ButtonComponent {
-  @Input() isActiveButton: boolean = true;
+export class ButtonLogoutComponent {
   constructor(private router: Router){}
-  
-  goHome(){
-      this.router.navigate(['home']);
+
+  onLogout() {
+    this.router.navigate(['']); 
   }
 }

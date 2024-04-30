@@ -1,20 +1,23 @@
 import { Component } from '@angular/core';
 import { EmailComponent } from '../../shared/components/email/email.component';
 import { PasswordComponent } from '../../shared/components/password/password.component';
-import { ButtonComponent } from '../../shared/components/button/button.component';
+import { ButtonLoginComponent } from '../../shared/components/buttons/login/buttonLogin.component';
 import { FormControl, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-auth',
   standalone: true,
-  imports: [EmailComponent, PasswordComponent, ButtonComponent, ReactiveFormsModule],
+  imports: [EmailComponent, PasswordComponent, ButtonLoginComponent, ReactiveFormsModule],
   templateUrl: './auth.component.html',
   styleUrl: './auth.component.scss'
 })
 export class AuthComponent {
   myForm : FormGroup;
+  title = "Добро пожаловать";
+  description = "Для получения доступа введите данные!";
   
-  constructor(){
+  constructor(private router: Router){
       this.myForm = new FormGroup({
           "email": new FormControl("", [
                               Validators.required, 
@@ -22,5 +25,12 @@ export class AuthComponent {
                           ]),
           "password": new FormControl("", Validators.pattern("[0-9]{4}")) 
       });
+  }
+
+  onLogin(isActiveButton: boolean){
+    if(isActiveButton) {
+      this.router.navigate(['board']);
+
+    }  
   }
 }

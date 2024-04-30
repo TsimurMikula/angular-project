@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5419601907844581110" datatype="html">
+        <source>Добро пожаловать</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth/auth.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6297182611677587547" datatype="html">
+        <source>Для получения доступа введите данные!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth/auth.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4757710111934671256" datatype="html">
+        <source> Привет. Твоя доска задач.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2407338286016888972" datatype="html">
+        <source>Чтобы поменять статус, перетащи задачу в нужное поле!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1352696471166394339" datatype="html">
+        <source>To Do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1663291089304703973" datatype="html">
+        <source>Номер задания: <x id="INTERPOLATION" equiv-text="{{task?.ticketId}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="542640960986434303" datatype="html">
+        <source>Статус: <x id="INTERPOLATION" equiv-text="{{task?.status}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1780950485960518731" datatype="html">
+        <source>In Progress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6886142064637583173" datatype="html">
+        <source>Under Review</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="397098723873502323" datatype="html">
+        <source>Done</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4043049091728011235" datatype="html">
+        <source>Cancelled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4188654437346976139" datatype="html">
+        <source>Rejected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6226153132877476748" datatype="html">
+        <source>Войти</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/buttons/login/buttonLogin.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9044940825787368887" datatype="html">
+        <source>Выйти</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/buttons/logout/buttonLogout.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3161542176744743258" datatype="html">
+        <source>Введите Почту</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3435147072258927765" datatype="html">
+        <source>Введите вашу почту</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{errorMessage}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/password/password.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7958507129994564480" datatype="html">
+        <source>Введите Пароль (4 цифры)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/password/password.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4397382121506400395" datatype="html">
+        <source>Введите ваш пароль</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/password/password.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
