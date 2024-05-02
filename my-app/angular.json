@@ -7,8 +7,10 @@
       "i18n": {
         "sourceLocale": "ru",
         "locales": {
-          "en": "src/assets/i18n/en.json",
-          "ru": "src/assets/i18n/ru.json"
+          "en": {
+            "translation":"./src/locale/messages.en.xlf",
+            "baseHref": "/en/"
+          }
         }
       },
       "projectType": "application",
@@ -25,7 +27,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "localize": [
-              "en"
+              "ru"
             ], 
             "i18nMissingTranslation": "error", 
             "outputPath": "dist/my-app",

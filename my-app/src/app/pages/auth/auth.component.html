@@ -1,6 +1,6 @@
 <div class="form">
-    <h1 i18n>{{ title }}</h1>
-    <h3 i18n>{{ description }}</h3>
+    <h1 i18n>Добро пожаловать</h1>
+    <h3 i18n>Для получения доступа введите данные!</h3>
     <form [formGroup]="myForm" (ngSubmit)="onLogin($event)">
         <app-email [email]="$any(myForm.controls['email'])"></app-email>
         <app-password [password]="$any(myForm.controls['password'])"></app-password>

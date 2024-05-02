@@ -16,8 +16,8 @@
           <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4757710111934671256" datatype="html">
-        <source> Привет. Твоя доска задач.</source>
+      <trans-unit id="4627712803662780607" datatype="html">
+        <source>Привет. Твоя доска задач.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
           <context context-type="linenumber">2,3</context>
@@ -37,50 +37,46 @@
           <context context-type="linenumber">7,8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1663291089304703973" datatype="html">
-        <source>Номер задания: <x id="INTERPOLATION" equiv-text="{{task?.ticketId}}"/></source>
+      <trans-unit id="5711963270141712988" datatype="html">
+        <source>Номер задания:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
           <context context-type="linenumber">9,10</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">18,19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">23,24</context>
+          <context context-type="linenumber">27,28</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">30,31</context>
+          <context context-type="linenumber">36,37</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">37,38</context>
+          <context context-type="linenumber">45,46</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">44,45</context>
+          <context context-type="linenumber">54,55</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="542640960986434303" datatype="html">
-        <source>Статус: <x id="INTERPOLATION" equiv-text="{{task?.status}}"/></source>
+      <trans-unit id="1498979054413226073" datatype="html">
+        <source>Статус:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">10,11</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">20,21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">24,25</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">31,32</context>
+          <context context-type="linenumber">29,30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
@@ -88,42 +84,65 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">45,46</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1780950485960518731" datatype="html">
         <source>In Progress</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">14,15</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{task?.ticketId}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/password/password.component.html</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6886142064637583173" datatype="html">
         <source>Under Review</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">21,22</context>
+          <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="397098723873502323" datatype="html">
         <source>Done</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">28,29</context>
+          <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4043049091728011235" datatype="html">
         <source>Cancelled</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">35,36</context>
+          <context context-type="linenumber">43,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4188654437346976139" datatype="html">
         <source>Rejected</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/board/board.component.html</context>
-          <context context-type="linenumber">42,43</context>
+          <context context-type="linenumber">52,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6226153132877476748" datatype="html">
@@ -152,17 +171,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
           <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="187187500641108332" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{errorMessage}}"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/email/email.component.html</context>
-          <context context-type="linenumber">11,12</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/password/password.component.html</context>
-          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7958507129994564480" datatype="html">

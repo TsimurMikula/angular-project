@@ -14,8 +14,8 @@ import { Router } from '@angular/router';
 })
 export class AuthComponent {
   myForm : FormGroup;
-  title = "Добро пожаловать";
-  description = "Для получения доступа введите данные!";
+  // title = "Добро пожаловать";
+  // description = "Для получения доступа введите данные!";
   
   constructor(private router: Router){
       this.myForm = new FormGroup({
