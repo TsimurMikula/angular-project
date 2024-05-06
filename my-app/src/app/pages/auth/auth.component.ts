@@ -4,6 +4,7 @@ import { PasswordComponent } from '../../shared/components/password/password.com
 import { ButtonLoginComponent } from '../../shared/components/buttons/login/buttonLogin.component';
 import { FormControl, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from '../../core/services/auth.service';
 
 @Component({
   selector: 'app-auth',
@@ -14,10 +15,8 @@ import { Router } from '@angular/router';
 })
 export class AuthComponent {
   myForm : FormGroup;
-  // title = "Добро пожаловать";
-  // description = "Для получения доступа введите данные!";
   
-  constructor(private router: Router){
+  constructor(private router: Router, private readonly api: AuthService){
       this.myForm = new FormGroup({
           "email": new FormControl("", [
                               Validators.required, 
@@ -29,8 +28,14 @@ export class AuthComponent {
 
   onLogin(isActiveButton: boolean){
     if(isActiveButton) {
-      this.router.navigate(['board']);
-
+      const user = {
+        ...this.myForm.value,
+        "token": `${Math.random()}`
+      }
+      this.api.login(user).subscribe(() => {
+        localStorage.setItem("token", user.token);
+        this.router.navigate(['board']);
+      });
     }  
   }
 }

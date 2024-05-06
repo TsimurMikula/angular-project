@@ -1,6 +1,6 @@
 import { createReducer, on } from "@ngrx/store";
 import * as TasksActions from "./tasks.action"
-import { Task } from "../models/tasks/task";
+import { Task } from "../models/task";
 
 export interface TasksState {
     tasks: Task[]
